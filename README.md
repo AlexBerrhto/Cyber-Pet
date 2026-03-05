@@ -27,3 +27,40 @@ Want to get CyberPet running on your machine? Follow these steps:
 ```bash
 git clone [https://github.com/AlexBerrhto/Cyber-Pet.git](https://github.com/AlexBerrhto/Cyber-Pet.git)
 cd Cyber-Pet
+```
+
+### 2. Setup the Backend (Python)
+
+```bash
+# Create a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install dependencies
+pip install -r Backend/requirements.txt
+
+```
+
+
+### 3. Setup the Frontend (React)
+
+```bash
+cd frontend
+npm install
+```
+
+### 4. 4. Run the App
+
+```bash
+npm run dev
+```
+
+### How to Play
+
+Feed: Keeps the hunger bar full. If hunger hits 0, your pet might fall asleep!
+
+Pet: Show some love. It makes the pet happy but a bit sleepy.
+
+Dance: Watch your pet move!
+
+Customize: Want your pet to do more? Open Backend/backend.py to add new logic or frontend/src/App.js to change the look.
